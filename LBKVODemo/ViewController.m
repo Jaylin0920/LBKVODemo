@@ -6,6 +6,8 @@
 //  Copyright © 2017年 JiBaoBao. All rights reserved.
 //
 
+
+
 #import "ViewController.h"
 #import "NSObject+LBKVO.h"
 
@@ -19,6 +21,7 @@
 
 - (void)dealloc{
     [self.view lb_removeObserver:self.testLbael key:@"backgroundColor"];
+    // 竟然可以这样编辑,厉害了
 }
 
 - (void)viewDidLoad {
