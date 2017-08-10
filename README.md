@@ -40,7 +40,7 @@ runtime实现的block形式的KVO
 <br> </br>
 
 
-###（二）removeObserver 
+### （二）removeObserver 
 
 <b> 1.获取观察者列表 </b>
 
