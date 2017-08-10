@@ -1,0 +1,7 @@
+Podfile.lock
+Pods/
+# git ignore
+*.xcuserstate
+xcuserdata
+xcuserdata/
+.DS_Store
