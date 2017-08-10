@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F651D0161F3B1BC300F84815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F651D0151F3B1BC300F84815 /* main.m */; };
+		F651D0191F3B1BC300F84815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F651D0181F3B1BC300F84815 /* AppDelegate.m */; };
+		F651D01C1F3B1BC300F84815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F651D01B1F3B1BC300F84815 /* ViewController.m */; };
+		F651D01F1F3B1BC300F84815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F651D01D1F3B1BC300F84815 /* Main.storyboard */; };
+		F651D0211F3B1BC300F84815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F651D0201F3B1BC300F84815 /* Assets.xcassets */; };
+		F651D0241F3B1BC300F84815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F651D0221F3B1BC300F84815 /* LaunchScreen.storyboard */; };
+		F651D02F1F3B1BC300F84815 /* LBKVODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F651D02E1F3B1BC300F84815 /* LBKVODemoTests.m */; };
+		F651D03A1F3B1BC300F84815 /* LBKVODemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F651D0391F3B1BC300F84815 /* LBKVODemoUITests.m */; };
+		F651D04C1F3B1C1100F84815 /* LBObserverInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F651D0491F3B1C1100F84815 /* LBObserverInfo.m */; };
+		F651D04D1F3B1C1100F84815 /* NSObject+LBKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = F651D04B1F3B1C1100F84815 /* NSObject+LBKVO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F651D02B1F3B1BC300F84815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F651D0091F3B1BC300F84815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F651D0101F3B1BC300F84815;
+			remoteInfo = LBKVODemo;
+		};
+		F651D0361F3B1BC300F84815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F651D0091F3B1BC300F84815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F651D0101F3B1BC300F84815;
+			remoteInfo = LBKVODemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F651D0111F3B1BC300F84815 /* LBKVODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBKVODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F651D0151F3B1BC300F84815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F651D0171F3B1BC300F84815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F651D0181F3B1BC300F84815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F651D01A1F3B1BC300F84815 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F651D01B1F3B1BC300F84815 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F651D01E1F3B1BC300F84815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F651D0201F3B1BC300F84815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F651D0231F3B1BC300F84815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F651D0251F3B1BC300F84815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F651D02A1F3B1BC300F84815 /* LBKVODemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBKVODemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F651D02E1F3B1BC300F84815 /* LBKVODemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBKVODemoTests.m; sourceTree = "<group>"; };
+		F651D0301F3B1BC300F84815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F651D0351F3B1BC300F84815 /* LBKVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBKVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F651D0391F3B1BC300F84815 /* LBKVODemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBKVODemoUITests.m; sourceTree = "<group>"; };
+		F651D03B1F3B1BC300F84815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F651D0481F3B1C1100F84815 /* LBObserverInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBObserverInfo.h; sourceTree = "<group>"; };
+		F651D0491F3B1C1100F84815 /* LBObserverInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBObserverInfo.m; sourceTree = "<group>"; };
+		F651D04A1F3B1C1100F84815 /* NSObject+LBKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LBKVO.h"; sourceTree = "<group>"; };
+		F651D04B1F3B1C1100F84815 /* NSObject+LBKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LBKVO.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F651D00E1F3B1BC300F84815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F651D0271F3B1BC300F84815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F651D0321F3B1BC300F84815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F651D0081F3B1BC300F84815 = {
+			isa = PBXGroup;
+			children = (
+				F651D0131F3B1BC300F84815 /* LBKVODemo */,
+				F651D02D1F3B1BC300F84815 /* LBKVODemoTests */,
+				F651D0381F3B1BC300F84815 /* LBKVODemoUITests */,
+				F651D0121F3B1BC300F84815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F651D0121F3B1BC300F84815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F651D0111F3B1BC300F84815 /* LBKVODemo.app */,
+				F651D02A1F3B1BC300F84815 /* LBKVODemoTests.xctest */,
+				F651D0351F3B1BC300F84815 /* LBKVODemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F651D0131F3B1BC300F84815 /* LBKVODemo */ = {
+			isa = PBXGroup;
+			children = (
+				F651D04E1F3B1C1A00F84815 /* Application */,
+				F651D0471F3B1C1100F84815 /* LBKVO */,
+				F651D01A1F3B1BC300F84815 /* ViewController.h */,
+				F651D01B1F3B1BC300F84815 /* ViewController.m */,
+				F651D0141F3B1BC300F84815 /* Supporting Files */,
+			);
+			path = LBKVODemo;
+			sourceTree = "<group>";
+		};
+		F651D0141F3B1BC300F84815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F651D0151F3B1BC300F84815 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F651D02D1F3B1BC300F84815 /* LBKVODemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F651D02E1F3B1BC300F84815 /* LBKVODemoTests.m */,
+				F651D0301F3B1BC300F84815 /* Info.plist */,
+			);
+			path = LBKVODemoTests;
+			sourceTree = "<group>";
+		};
+		F651D0381F3B1BC300F84815 /* LBKVODemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F651D0391F3B1BC300F84815 /* LBKVODemoUITests.m */,
+				F651D03B1F3B1BC300F84815 /* Info.plist */,
+			);
+			path = LBKVODemoUITests;
+			sourceTree = "<group>";
+		};
+		F651D0471F3B1C1100F84815 /* LBKVO */ = {
+			isa = PBXGroup;
+			children = (
+				F651D0481F3B1C1100F84815 /* LBObserverInfo.h */,
+				F651D0491F3B1C1100F84815 /* LBObserverInfo.m */,
+				F651D04A1F3B1C1100F84815 /* NSObject+LBKVO.h */,
+				F651D04B1F3B1C1100F84815 /* NSObject+LBKVO.m */,
+			);
+			path = LBKVO;
+			sourceTree = "<group>";
+		};
+		F651D04E1F3B1C1A00F84815 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F651D01D1F3B1BC300F84815 /* Main.storyboard */,
+				F651D0201F3B1BC300F84815 /* Assets.xcassets */,
+				F651D0221F3B1BC300F84815 /* LaunchScreen.storyboard */,
+				F651D0251F3B1BC300F84815 /* Info.plist */,
+				F651D0171F3B1BC300F84815 /* AppDelegate.h */,
+				F651D0181F3B1BC300F84815 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F651D0101F3B1BC300F84815 /* LBKVODemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F651D03E1F3B1BC300F84815 /* Build configuration list for PBXNativeTarget "LBKVODemo" */;
+			buildPhases = (
+				F651D00D1F3B1BC300F84815 /* Sources */,
+				F651D00E1F3B1BC300F84815 /* Frameworks */,
+				F651D00F1F3B1BC300F84815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBKVODemo;
+			productName = LBKVODemo;
+			productReference = F651D0111F3B1BC300F84815 /* LBKVODemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F651D0291F3B1BC300F84815 /* LBKVODemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F651D0411F3B1BC300F84815 /* Build configuration list for PBXNativeTarget "LBKVODemoTests" */;
+			buildPhases = (
+				F651D0261F3B1BC300F84815 /* Sources */,
+				F651D0271F3B1BC300F84815 /* Frameworks */,
+				F651D0281F3B1BC300F84815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F651D02C1F3B1BC300F84815 /* PBXTargetDependency */,
+			);
+			name = LBKVODemoTests;
+			productName = LBKVODemoTests;
+			productReference = F651D02A1F3B1BC300F84815 /* LBKVODemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F651D0341F3B1BC300F84815 /* LBKVODemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F651D0441F3B1BC300F84815 /* Build configuration list for PBXNativeTarget "LBKVODemoUITests" */;
+			buildPhases = (
+				F651D0311F3B1BC300F84815 /* Sources */,
+				F651D0321F3B1BC300F84815 /* Frameworks */,
+				F651D0331F3B1BC300F84815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F651D0371F3B1BC300F84815 /* PBXTargetDependency */,
+			);
+			name = LBKVODemoUITests;
+			productName = LBKVODemoUITests;
+			productReference = F651D0351F3B1BC300F84815 /* LBKVODemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F651D0091F3B1BC300F84815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JiBaoBao;
+				TargetAttributes = {
+					F651D0101F3B1BC300F84815 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = C4WP8QZ2NZ;
+						ProvisioningStyle = Automatic;
+					};
+					F651D0291F3B1BC300F84815 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = C4WP8QZ2NZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F651D0101F3B1BC300F84815;
+					};
+					F651D0341F3B1BC300F84815 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = C4WP8QZ2NZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F651D0101F3B1BC300F84815;
+					};
+				};
+			};
+			buildConfigurationList = F651D00C1F3B1BC300F84815 /* Build configuration list for PBXProject "LBKVODemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F651D0081F3B1BC300F84815;
+			productRefGroup = F651D0121F3B1BC300F84815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F651D0101F3B1BC300F84815 /* LBKVODemo */,
+				F651D0291F3B1BC300F84815 /* LBKVODemoTests */,
+				F651D0341F3B1BC300F84815 /* LBKVODemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F651D00F1F3B1BC300F84815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F651D0241F3B1BC300F84815 /* LaunchScreen.storyboard in Resources */,
+				F651D0211F3B1BC300F84815 /* Assets.xcassets in Resources */,
+				F651D01F1F3B1BC300F84815 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F651D0281F3B1BC300F84815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F651D0331F3B1BC300F84815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F651D00D1F3B1BC300F84815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F651D01C1F3B1BC300F84815 /* ViewController.m in Sources */,
+				F651D04C1F3B1C1100F84815 /* LBObserverInfo.m in Sources */,
+				F651D04D1F3B1C1100F84815 /* NSObject+LBKVO.m in Sources */,
+				F651D0191F3B1BC300F84815 /* AppDelegate.m in Sources */,
+				F651D0161F3B1BC300F84815 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F651D0261F3B1BC300F84815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F651D02F1F3B1BC300F84815 /* LBKVODemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F651D0311F3B1BC300F84815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F651D03A1F3B1BC300F84815 /* LBKVODemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F651D02C1F3B1BC300F84815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F651D0101F3B1BC300F84815 /* LBKVODemo */;
+			targetProxy = F651D02B1F3B1BC300F84815 /* PBXContainerItemProxy */;
+		};
+		F651D0371F3B1BC300F84815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F651D0101F3B1BC300F84815 /* LBKVODemo */;
+			targetProxy = F651D0361F3B1BC300F84815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F651D01D1F3B1BC300F84815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F651D01E1F3B1BC300F84815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F651D0221F3B1BC300F84815 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F651D0231F3B1BC300F84815 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F651D03C1F3B1BC300F84815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F651D03D1F3B1BC300F84815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F651D03F1F3B1BC300F84815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C4WP8QZ2NZ;
+				INFOPLIST_FILE = LBKVODemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crash.LBKVODemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F651D0401F3B1BC300F84815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C4WP8QZ2NZ;
+				INFOPLIST_FILE = LBKVODemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crash.LBKVODemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F651D0421F3B1BC300F84815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C4WP8QZ2NZ;
+				INFOPLIST_FILE = LBKVODemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crash.LBKVODemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBKVODemo.app/LBKVODemo";
+			};
+			name = Debug;
+		};
+		F651D0431F3B1BC300F84815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C4WP8QZ2NZ;
+				INFOPLIST_FILE = LBKVODemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crash.LBKVODemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBKVODemo.app/LBKVODemo";
+			};
+			name = Release;
+		};
+		F651D0451F3B1BC300F84815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C4WP8QZ2NZ;
+				INFOPLIST_FILE = LBKVODemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crash.LBKVODemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBKVODemo;
+			};
+			name = Debug;
+		};
+		F651D0461F3B1BC300F84815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C4WP8QZ2NZ;
+				INFOPLIST_FILE = LBKVODemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crash.LBKVODemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBKVODemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F651D00C1F3B1BC300F84815 /* Build configuration list for PBXProject "LBKVODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F651D03C1F3B1BC300F84815 /* Debug */,
+				F651D03D1F3B1BC300F84815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F651D03E1F3B1BC300F84815 /* Build configuration list for PBXNativeTarget "LBKVODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F651D03F1F3B1BC300F84815 /* Debug */,
+				F651D0401F3B1BC300F84815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F651D0411F3B1BC300F84815 /* Build configuration list for PBXNativeTarget "LBKVODemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F651D0421F3B1BC300F84815 /* Debug */,
+				F651D0431F3B1BC300F84815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F651D0441F3B1BC300F84815 /* Build configuration list for PBXNativeTarget "LBKVODemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F651D0451F3B1BC300F84815 /* Debug */,
+				F651D0461F3B1BC300F84815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F651D0091F3B1BC300F84815 /* Project object */;
+}
