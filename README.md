@@ -5,7 +5,7 @@ runtime实现的block形式的KVO
 
 
 ##  实现原理图
-![123](http://lbcodeimg.qiniudn.com/17-8-10/59031653.jpg)
+![](http://or8jbn4mz.bkt.clouddn.com/17-8-10/18450982.jpg)
 
 
 ## 实现原理
