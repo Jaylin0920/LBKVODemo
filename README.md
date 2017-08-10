@@ -10,7 +10,7 @@ runtime实现的block形式的KVO
 
 ## 实现原理
 
-### （一）addObserver ###
+### （一）addObserver
 
 <b> 1.当观察某对象A时，要确保这个 key 的 setter 方法存在。不存在其 setter 方法，则无法监听 </b>
 
@@ -40,7 +40,8 @@ runtime实现的block形式的KVO
 <br> </br>
 
 
-###（二）removeObserver ###
+###（二）removeObserver 
+
 <b> 1.获取观察者列表 </b>
 
 <b> 2.移除观察者列表中，对应key的观察者 </b>
